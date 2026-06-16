@@ -85,25 +85,25 @@ DATABASE_CONFIG = {
 The repository contains skeleton code with TODO comments. Your job is to implement the missing functionality:
 
 ### Part 1: Data Extraction (`src/extract_data.py`)
-- [ ] Implement `extract_airports()` to read CSV data
-- [ ] Implement `extract_flights()` to fetch data from OpenSky Network API
-- [ ] Handle errors gracefully (network issues, API limits)
+- [x] Implement `extract_airports()` to read CSV data
+- [x] Implement `extract_flights()` to fetch data from OpenSky Network API
+- [x] Handle errors gracefully (network issues, API limits)
 
 ### Part 2: Data Transformation (`src/transform_data.py`)
-- [ ] Implement `clean_airports()` to remove invalid data
-- [ ] Implement `clean_flights()` to standardize API data
-- [ ] Convert units (altitude meters to feet)
-- [ ] Handle missing values appropriately
+- [x] Implement `clean_airports()` to remove invalid data
+- [x] Implement `clean_flights()` to standardize API data
+- [x] Convert units (altitude meters to feet)
+- [x] Handle missing values appropriately
 
 ### Part 3: Data Loading (`src/load_data.py`)
-- [ ] Implement `load_to_database()` using pandas to_sql()
-- [ ] Implement `verify_data()` to check data was loaded correctly
-- [ ] Update database connection configuration
+- [x] Implement `load_to_database()` using pandas to_sql()
+- [x] Implement `verify_data()` to check data was loaded correctly
+- [x] Update database connection configuration
 
 ### Part 4: Integration (`main.py`)
-- [ ] Uncomment the function calls once each component works
-- [ ] Test the full pipeline end-to-end
-- [ ] Add error handling for robustness
+- [x] Uncomment the function calls once each component works
+- [x] Test the full pipeline end-to-end
+- [x] Add error handling for robustness
 
 ## 🧪 Testing Your Code
 
